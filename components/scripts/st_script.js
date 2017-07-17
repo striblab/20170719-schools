@@ -31,7 +31,7 @@ var geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken
 });
 
-document.getElementById('geocoder').appendChild(geocoder.onAdd(map))
+document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 
 map.on('load', function() {
 
